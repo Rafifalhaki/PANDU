@@ -19,7 +19,12 @@
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
-        "DB_CONNECTION": "sqlite"
+        "APP_DEBUG": "true",
+        "APP_KEY": "base64:zl8vYzMoqHYH7uLaJ0/kF+AQ8KgQ3mqPbkwBHbXfKBk=",
+        "DB_CONNECTION": "sqlite",
+        "SESSION_DRIVER": "cookie",
+        "CACHE_STORE": "array",
+        "VIEW_COMPILED_PATH": "/tmp",
+        "LOG_CHANNEL": "errorlog"
     }
 }
